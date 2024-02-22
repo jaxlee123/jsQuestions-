@@ -15,3 +15,14 @@ function addition(x, y){
 var z = x+y
 console.log(z);
 }
+let myFunction = (a, b)  => {
+    var z = a * b
+    console.log(z);
+}
+
+arr = [];
+arr.length = 10
+// console.log(arr.fill(Math.floor(Math.random()*100)));
+for (let i = 0; i < 10; i++) {
+    console.log(arr.fill(Math.floor(Math.random()*100), i));  
+  }
